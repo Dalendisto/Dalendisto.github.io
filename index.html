@@ -120,6 +120,17 @@ html,body{height:100%;padding:0;margin:0;}.s.e.ic{display:block;}.s.e.ic.hf > im
   box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
   outline: none;
 }</style></div><div class="hf s c wf ct cl"><div class="hc s c wc ct cl"><div class="s t wc hc">Index</div></div></div></div>
+			<script>
+  			if (window.netlifyIdentity) {
+    			window.netlifyIdentity.on("init", user => {
+      			if (!user) {
+        			window.netlifyIdentity.on("login", () => {
+          			document.location.href = "/admin/";
+        			});
+      			}
+    			});
+  			}
+			</script>
     </body>
   </html>
   
