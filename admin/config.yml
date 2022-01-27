@@ -8,7 +8,7 @@ public_folder: "images"
 collections: 
  - name: "blog"
    label: "Blog"
-   folder: "content"
+   folder: "repofiles"
    create: true
    fields:
     - { label: "Title", name: "title", widget: "string" }
